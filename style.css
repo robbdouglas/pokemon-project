@@ -105,7 +105,7 @@ main {
 /* WHAT YOU WILL LEARN */
 
 #introduction {
-  width: 80vw;
+  width: 80%;
   height: 80vh;
   /* border: 2px solid red; */
   border-radius: 20px;
@@ -296,7 +296,7 @@ main {
   height: 80vh;
   /* border: 2px solid red; */
   border-radius: 20px;
-  margin: 20px 0 20px 400px;
+  margin: 20px 0 0 400px;
   background-color: rgb(222, 185, 135, 50%);
 }
 
@@ -343,7 +343,7 @@ footer a:visited {
 }
 
 footer i {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 /* _________________________________________________________________________ */
@@ -366,13 +366,11 @@ footer i {
 #about {
   width: 90%;
   height: 150vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 20px;
-  background-color: rgba(90, 82, 71, 0.5);
+  background-color: rgb(222, 185, 135, 50%);
   margin: auto;
   margin-top: 30px;
-  /* display: flex;
-  justify-content: flex-end; */
 }
 
 .about-title {
@@ -405,13 +403,68 @@ footer i {
   margin: 30px;
   line-height: 40px;
   font-size: 2.6rem;
-  text-align: center;
+  text-align: left;
 }
 
 table {
   /* border: 2px solid red; */
+  text-align: center;
+  position: relative;
+  background-color: rgb(255, 255, 255, 0.5);
+  left: 100px;
 }
 
 td {
   padding: 30px 150px;
+}
+
+#fire {
+  display: inline-block;
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: orangered;
+  color: white;
+  width: 100px;
+}
+
+#dark {
+  display: inline-block;
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgb(111, 78, 49);
+  color: white;
+  width: 100px;
+}
+
+.sing {
+    position: relative;
+    left: 450px;
+    top: 250px;
+    font-size: 5rem;
+}
+
+.singframe {
+    position: relative;
+    left: 1100px;
+    top: 60px;
+}
+
+#to-top {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 4rem;
+    top: 220px;
+    left: 1500px;
+}
+
+#to-top:hover {
+    text-decoration: none;
+    background-color: red;
 }
