@@ -311,11 +311,39 @@ main {
 .footer-home {
   min-height: 5vh;
   background-color: black;
-  color: red;
+  color: white;
   font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+.insta:hover {
+  color: rgb(191, 51, 132);
+}
+
+.facebook:hover {
+  color: rgb(26, 42, 181);
+}
+
+.linkedin:hover {
+  color: rgb(51, 100, 191);
+}
+
+.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+footer i {
+  padding-left: 30px;
 }
 
 /* _________________________________________________________________________ */
@@ -353,16 +381,37 @@ main {
   text-decoration: underline;
 }
 
-#wwm-pic {
-    width: 700px;
-    height: 500px;
-    border-radius: 50%;
-    border: 7px solid black;
-    margin: 20px;
-    float: right;
+#about-pic {
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid black;
+  margin: 20px;
+  float: right;
+}
+
+#about-pic2 {
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid black;
+  margin: 20px;
+  float: left;
 }
 
 .about-description {
-    margin: 30px;
-    line-height: 40px;
+  margin: 30px;
+  line-height: 40px;
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+table {
+  /* border: 2px solid red; */
+}
+
+td {
+  padding: 30px 150px;
 }
