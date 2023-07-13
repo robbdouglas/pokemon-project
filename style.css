@@ -365,7 +365,7 @@ footer i {
 
 #about {
   width: 90%;
-  height: 150vh;
+  height: 158vh;
   /* border: 2px solid red; */
   border-radius: 20px;
   background-color: rgb(222, 185, 135, 50%);
@@ -406,6 +406,14 @@ footer i {
   text-align: left;
 }
 
+.about-description a {
+  color: black;
+}
+
+.about-description a:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
 table {
   /* border: 2px solid red; */
   text-align: center;
@@ -439,32 +447,45 @@ td {
 }
 
 .sing {
-    position: relative;
-    left: 450px;
-    top: 250px;
-    font-size: 5rem;
+  position: relative;
+  left: 450px;
+  top: 250px;
+  font-size: 5rem;
+}
+
+.sing a {
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(191, 51, 132);
+}
+
+.sing a:hover {
+  background-color: black;
+  color: rgb(191, 51, 132);
 }
 
 .singframe {
-    position: relative;
-    left: 1100px;
-    top: 60px;
+  position: relative;
+  left: 1100px;
+  top: 20px;
 }
 
 #to-top {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: white;
-    font-size: 4rem;
-    top: 220px;
-    left: 1500px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 4rem;
+  top: 220px;
+  left: 1500px;
 }
 
 #to-top:hover {
-    text-decoration: none;
-    background-color: red;
+  text-decoration: none;
+  background-color: rgb(191, 51, 132);
 }
