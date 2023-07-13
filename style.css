@@ -224,19 +224,19 @@ main {
 /* ABILITIES */
 
 #abilities {
-    width: 80vw;
-    height: 80vh;
-    /* border: 2px solid red; */
-    border-radius: 20px;
-    margin: 20px 0 20px 400px;
-    background-color: rgb(222, 185, 135, 50%);
-  }
-  
-  .abilities-title {
-    padding: 40px 0 0 0;
-    text-align: center;
-    text-decoration: underline;
-  }
+  width: 80vw;
+  height: 80vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+.abilities-title {
+  padding: 40px 0 0 0;
+  text-align: center;
+  text-decoration: underline;
+}
 
 /* ITEMS */
 
@@ -320,20 +320,49 @@ main {
 
 /* _________________________________________________________________________ */
 
-
 /* TIER LIST */
 
-
 /* _________________________________________________________________________ */
-
 
 /* EXAMPLE */
 
-
 /* _________________________________________________________________________ */
-
 
 /* ABOUT THE AUTHOR */
 
+/* .about-main {
+    display: flex;
+    justify-content: center;
+} */
 
-/* _________________________________________________________________________ */
+#about {
+  width: 90%;
+  height: 150vh;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: rgba(90, 82, 71, 0.5);
+  margin: auto;
+  margin-top: 30px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.about-title {
+  padding: 40px 0 0 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#wwm-pic {
+    width: 700px;
+    height: 500px;
+    border-radius: 50%;
+    border: 7px solid black;
+    margin: 20px;
+    float: right;
+}
+
+.about-description {
+    margin: 30px;
+    line-height: 40px;
+}
