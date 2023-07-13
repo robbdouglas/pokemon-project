@@ -79,8 +79,9 @@ body {
 }
 
 .nav-home a:hover {
-  color: yellow;
+  /* color: yellow; */
   text-decoration: underline;
+  background-color: rgb(128, 128, 128, 50%);
 }
 
 /* MAIN */
