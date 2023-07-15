@@ -31,6 +31,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- YARN FOR AOS -->
+    <p class="yarn">yarn add aos</p>
+    <!-- IMPORT AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <title>About the Author</title>
   </head>
   <body id="home-about">
@@ -54,8 +62,9 @@
           id="about-pic"
           src="./images/robb-eevee.jpeg"
           alt="Robert Nimmrich on Who wants to be a Millionaire chair"
+          data-aos="fade-up"
         />
-        <article class="about-description">
+        <article class="about-description" data-aos="fade-up">
           Greetings, fellow Pokémon Trainers! My name is Robb, I'm 29 years old
           and I'm currently living in Berlin. Originally, I'm from Thuringia,
           also called "The green heart of Germany". I did my A-Level in
@@ -65,7 +74,7 @@
           where I focussed on statistics, marketing, finance and risk
           management.
         </article>
-        <article class="about-description">
+        <article class="about-description" data-aos="fade-up">
           The biggest passion in my life is music. Since I'm a singer and
           songwriter, there is no day without singing, not even one minute. In
           order to show my talent and to find out wheather the people like my
@@ -83,7 +92,7 @@
           Teddiursa. There is no cuter one in the entire world of Pokémon. Mark
           my words: You are NEVER too old for Pokémon!
         </article>
-        <article class="about-description">
+        <article class="about-description" data-aos="fade-up">
           The reason why I started coding this website is simple. I started my
           career as a web developer in spring 2023 by studying at the
           <a
@@ -99,12 +108,13 @@
           for one year at DCI in June 2023.
         </article>
         <img
+          data-aos="fade-up"
           id="about-pic2"
           src="./images/robb-teddi.jpg"
           alt="Robert Nimmrich on Who wants to be a Millionaire chair"
         />
         <article class="about-description">
-          <table>
+          <table data-aos="fade-up">
             <tr>
               <td>Name</td>
               <td>Robb</td>
@@ -131,14 +141,17 @@
             </tr>
           </table>
         </article>
-        <article class="sing">Wanna hear me sing?</article>
-        <article class="sing">Watch this video or check</article>
-        <article class="sing">
+        <article class="sing" data-aos="fade-up">Wanna hear me sing?</article>
+        <article class="sing" data-aos="fade-up">
+          Watch this video or check
+        </article>
+        <article class="sing" data-aos="fade-up">
           out my
           <a
             class="insta"
             href="https://instagram.com/robbdouglas?igshid=OGQ5ZDc2ODk2ZA=="
             target="_blank"
+            data-aos="fade-up"
             >Instagram Profile <i class="fa-brands fa-instagram"></i
           ></a>
         </article>
@@ -151,8 +164,11 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          data-aos="fade-up"
         ></iframe>
-        <a id="to-top" href="#home-about">Go to top</a>
+        <a id="to-top" href="#home-about" data-aos="fade-up"
+          ><i class="fa-solid fa-arrow-up"></i
+        ></a>
       </section>
     </main>
     <!-- FOOTER -->

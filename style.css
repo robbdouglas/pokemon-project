@@ -15,6 +15,10 @@ body {
   overflow-x: hidden;
 }
 
+.yarn {
+  font-size: 0px;
+}
+
 /* HEADER HOMESEITE */
 
 .header-home {
@@ -86,8 +90,8 @@ body {
 
 h1 {
   font-size: 6rem;
-  color: grey;
-  text-shadow: 5px 5px 3px red;
+  color: rgb(233, 233, 47);
+  text-shadow: 5px 5px blue, 5px -5px blue, -5px -5px blue, -5px 5px blue;
   text-align: center;
   font-family: "Pokemon Solid", sans-serif;
   margin-top: 30px;
@@ -350,6 +354,15 @@ footer i {
 
 /* TIER LIST */
 
+#what-is-a-tier-list {
+  width: 80%;
+  height: 80vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
 /* _________________________________________________________________________ */
 
 /* EXAMPLE */
@@ -479,13 +492,14 @@ td {
   position: relative;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: white;
-  font-size: 4rem;
+  /* background-color: white; */
+  font-size: 6rem;
   top: 220px;
-  left: 1500px;
+  left: 1640px;
 }
 
 #to-top:hover {
   text-decoration: none;
-  background-color: rgb(191, 51, 132);
+  background-color: black;
+  color: white;
 }
