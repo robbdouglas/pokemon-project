@@ -361,53 +361,102 @@ section div {
   text-decoration: underline;
 }
 
-/* FOOTER */
-
-.footer-home {
-  min-height: 5vh;
-  background-color: black;
-  color: white;
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  color: white;
-}
-
-footer a:visited {
-  color: white;
-}
-
-.insta:hover {
-  color: rgb(191, 51, 132);
-}
-
-.facebook:hover {
-  color: rgb(26, 42, 181);
-}
-
-.linkedin:hover {
-  color: rgb(51, 100, 191);
-}
-
-.youtube:hover {
-  color: rgb(255, 0, 0);
-}
-
-footer i {
-  margin-left: 30px;
-}
-
 /* _________________________________________________________________________ */
 
 /* TIER LIST */
 
-#what-is-a-tier-list {
+#what-is-a-tierlist {
   width: 80%;
-  height: 80vh;
+  height: 35vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+.what-is-a-tier-list-article {
+  margin: 30px;
+  line-height: 40px;
+  font-size: 2.6rem;
+}
+
+#tierlist-pic {
+  float: right;
+  width: 350px;
+  margin: 30px;
+}
+
+#whole-tierlist {
+  color: black;
+}
+
+#whole-tierlist:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+#ss-tier {
+  width: 80%;
+  height: 37vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+.ss-tier-article {
+  margin: 30px;
+  line-height: 40px;
+  font-size: 2.6rem;
+}
+
+.ss-tier-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div img {
+  width: 250px;
+}
+
+#s-tier {
+  width: 80%;
+  height: 37vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+#a-tier {
+  width: 80%;
+  height: 37vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+#b-tier {
+  width: 80%;
+  height: 37vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+#c-tier {
+  width: 80%;
+  height: 37vh;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  margin: 20px 0 20px 400px;
+  background-color: rgb(222, 185, 135, 50%);
+}
+
+#ban-tier {
+  width: 80%;
+  height: 40vh;
   /* border: 2px solid red; */
   border-radius: 20px;
   margin: 20px 0 20px 400px;
@@ -552,4 +601,44 @@ td {
   text-decoration: none;
   background-color: black;
   color: white;
+}
+
+/* FOOTER */
+
+.footer-home {
+  min-height: 5vh;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+.insta:hover {
+  color: rgb(191, 51, 132);
+}
+
+.facebook:hover {
+  color: rgb(26, 42, 181);
+}
+
+.linkedin:hover {
+  color: rgb(51, 100, 191);
+}
+
+.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+footer i {
+  margin-left: 30px;
 }
