@@ -253,6 +253,12 @@ section div {
   text-decoration: underline;
 }
 
+#stats-article {
+  margin: 30px;
+  line-height: 40px;
+  font-size: 2.6rem;
+}
+
 /* EVs and DVs */
 
 #ev-dv {
