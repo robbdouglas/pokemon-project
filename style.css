@@ -110,15 +110,17 @@ main {
   background-repeat: repeat;
 }
 
+section {
+  background-color: rgb(222, 185, 135, 50%);
+  margin: 20px 0 20px 400px;
+  border-radius: 20px;
+}
+
 /* WHAT YOU WILL LEARN */
 
 #introduction {
   width: 80%;
   height: 69vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .learn-title {
@@ -149,10 +151,6 @@ main {
 #scarlet-violet {
   width: 80vw;
   height: 76vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .sv-title {
@@ -190,10 +188,6 @@ main {
 #strengths-weaknesses {
   width: 80vw;
   height: 74vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .strengths-weaknesses-title {
@@ -220,10 +214,6 @@ main {
 #stats {
   width: 80vw;
   height: 53vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .stats-title {
@@ -249,10 +239,6 @@ main {
 #ev-dv {
   width: 80vw;
   height: 70vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .ev-dv-title {
@@ -290,10 +276,6 @@ main {
 #natures {
   width: 80vw;
   height: 36vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .natures-title {
@@ -319,10 +301,6 @@ main {
 #abilities {
   width: 80vw;
   height: 27vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .abilities-title {
@@ -342,10 +320,6 @@ main {
 #items {
   width: 80vw;
   height: 25vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .items-title {
@@ -360,7 +334,7 @@ main {
   font-size: 2.6rem;
 }
 
-#items a{
+#items a {
   text-decoration: underline;
   color: black;
 }
@@ -374,10 +348,6 @@ main {
 #tera-types {
   width: 80vw;
   height: 45vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .tera-types-title {
@@ -403,10 +373,6 @@ main {
 #tera-raids {
   width: 80vw;
   height: 80vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 0 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .tera-raids-title {
@@ -422,10 +388,6 @@ main {
 #what-is-a-tierlist {
   width: 80%;
   height: 35vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .what-is-a-tier-list-article {
@@ -451,10 +413,6 @@ main {
 #ss-tier {
   width: 80%;
   height: 37vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 .ss-tier-article {
@@ -475,46 +433,26 @@ div img {
 #s-tier {
   width: 80%;
   height: 37vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #a-tier {
   width: 80%;
   height: 37vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #b-tier {
   width: 80%;
   height: 37vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #c-tier {
   width: 80%;
   height: 37vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #ban-tier {
   width: 80%;
   height: 40vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 /* _________________________________________________________________________ */
@@ -524,10 +462,6 @@ div img {
 #general-training-checklist {
   width: 80%;
   height: 45vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #checklist-pic {
@@ -550,19 +484,11 @@ b {
 #dragonite-moveset {
   width: 80%;
   height: 58vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 #training-example {
   width: 80%;
   height: 58vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  margin: 20px 0 20px 400px;
-  background-color: rgb(222, 185, 135, 50%);
 }
 
 article ol {
@@ -576,17 +502,9 @@ article ol {
 
 /* ABOUT THE AUTHOR */
 
-/* .about-main {
-    display: flex;
-    justify-content: center;
-} */
-
 #about {
   width: 90%;
   height: 158vh;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-  background-color: rgb(222, 185, 135, 50%);
   margin: auto;
   margin-top: 30px;
 }
@@ -696,7 +614,6 @@ td {
   position: relative;
   border: 2px solid black;
   border-radius: 10px;
-  /* background-color: white; */
   font-size: 6rem;
   top: 220px;
   left: 1640px;
